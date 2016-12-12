@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Holly's Personal Website">
+
+        <meta name="author" content="Holly Zhou">
+
+        <title>Hong Zhou | Holly Zhou</title>
+
+		<!-- Mobile Specific Meta
+		================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="img/rainbow.jpeg" />
+
+		<!-- CSS
+		================================================== -->
+		<!-- Fontawesome Icon font -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- bootstrap.min css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Animate.css -->
+        <link rel="stylesheet" href="css/animate.css">
+		<!-- Owl Carousel -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+		<!-- Grid Component css -->
+        <link rel="stylesheet" href="css/component.css">
+		<!-- Slit Slider css -->
+        <link rel="stylesheet" href="css/slit-slider.css">
+		<!-- Main Stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
+		<!-- Media Queries -->
+        <link rel="stylesheet" href="css/media-queries.css">
+
+		<!--
+		Google Font
+		=========================== -->
+
+		<!-- Oswald / Title Font -->
+		<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+		<!-- Ubuntu / Body Font -->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<!-- Modernizer Script for old Browsers -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-54152927-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+
+    </head>
+
+    <body id="body">
+	    <!--
+	    Start Preloader
+	    ==================================== -->
+		<div id="loading-mask">
+			<div class="loading-img">
+				<img alt="Meghna Preloader" src="img/preloader.gif"  />
+			</div>
+		</div>
+        <!--
+        End Preloader
+        ==================================== -->
+
+        <!--
+        Welcome Slider
+        ==================================== -->
+		<section id="home">
+
+            <div id="slitSlider" class="sl-slider-wrapper">
+				<div class="sl-slider">
+
+					<!-- single slide item -->
+					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-1"></div>
+						<div class="carousel-caption">
+							<div>
+								<p id="holly">Hong Zhou</p>
+								<h2 data-wow-duration="500ms"  data-wow-delay="500ms" class="heading animated fadeInRight titleFull">Full-Stack Javascript Developer</h2>
+							</div>
+						</div>
+						</div>
+					</div>
+					<!-- /single slide item -->
+
+					<!-- single slide item -->
+					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-2"></div>
+						<div class="carousel-caption">
+							<div>
+								<h2 class="heading animated fadeInDown">PASSIONATE</h2>
+								<h3 class="animated fadeInUp">I Am Passionate About Code, And Improving My Skills.</h3>
+							</div>
+						</div>
+						</div>
+					</div>
+					<!-- /single slide item -->
+
+					<!-- single slide item -->
+					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-3"></div>
+						<div class="carousel-caption">
+							<div>
+								<h2 class="heading animated fadeInRight">EARNEST</h2>
+								<h3 class="animated fadeInLeft">I Am Earnest In Every Work.</h3>
+							</div>
+						</div>
+						</div>
+					</div>
+					<!-- /single slide item -->
+
+				</div><!-- /sl-slider -->
+
+				<nav id="nav-arrows" class="nav-arrows">
+					<span class="nav-arrow-prev">Previous</span>
+					<span class="nav-arrow-next">Next</span>
+				</nav>
+
+				<nav id="nav-dots" class="nav-dots">
+					<span class="nav-dot-current"></span>
+					<span></span>
+					<span></span>
+				</nav>
+
+			</div><!-- /slider-wrapper -->
+		</section>
+		<!--/#home section-->
+
+        <!--
+        Fixed Navigation
+        ==================================== -->
+        <header id="navigation" class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+					<!-- /responsive nav button -->
+
+					<!-- logo -->
+                    <a class="navbar-brand" href="#body">
+						<h1 id="logo">
+							<h2 id="hong">Hong Zhou - Holly</h2>
+						</h1>
+					</a>
+					<!-- /logo -->
+                </div>
+
+				<!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="Navigation">
+                    <ul id="nav" class="nav navbar-nav">
+                        <li class="current"><a href="#body">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#hackathon">Hackathon</a></li>
+                        <li><a href="#showcase">Projects</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                    </ul>
+                </nav>
+				<!-- /main nav -->
+
+            </div>
+        </header>
+        <!--
+        End Fixed Navigation
+        ==================================== -->
+
+		<!--
+		Start About Section
+		==================================== -->
+		<section id="about" class="bg-one">
+			<div class="container">
+				<div class="row">
+
+					<!-- section title -->
+					<div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
+						<h2>About <span class="color">Me</span></h2>
+						<div class="border"></div>
+					</div>
+					<!-- /section title -->
+
+          <div class="about-content text-center">
+            <h3>I'm a full-stack Javascript developer with a passion for code. I got a degree in Computer Science at Hunan University in China. I have a strong curiosity and a strong technical ability. In addition to my curiosity, I have committed myself to achieving my goals. My goal is improving my skills and building different kinds of applications to bring convenience in the lives of people.</h3>
+          </div>
+
+        </div> 		<!-- End row -->
+      </div>   	<!-- End container -->
+    </section>   <!-- End section -->
+
+    <!--
+    Start About Section
+    ==================================== -->
+    <section id="skills" class="bg-one">
+      <div class="container">
+        <div class="row">
+
+          <!-- section title -->
+          <div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
+            <h2>My <span class="color">Skills</span></h2>
+            <div class="border"></div>
+          </div>
+          <!-- /section title -->
+
+					<!-- About item -->
+          <div class="row">
+  					<!-- <div class="col-md-3 text-center wow fadeInUp" data-wow-duration="500ms" > -->
+            <div class="col-md-2 col-sm-4 col-xs-12 text-center wow fadeInDown java" data-wow-duration="500ms">
+  						<div class="wrap-about">
+  							<div class="icon-box">
+  								<img src="img/skills/javascript.png" alt="javascript" class="javascript">
+  							</div>
+                <div class="about-content text-center">
+  								<h4>Javascript</h4>
+  							</div>
+  						</div>
+  					</div>
+            <div class="col-md-2 col-sm-4 col-xs-12 text-center wow fadeInDown node" data-wow-duration="500ms">
+  						<div class="wrap-about">
+  							<div class="icon-box">
+  								<img src="img/skills/nodejs.png" alt="nodejs" class="nodejs">
+  							</div>
+                <div class="about-content text-center">
+  								<h4>Nodejs</h4>
+  							</div>
+  						</div>
+  					</div>
+            <div class="col-md-2 col-sm-4 col-xs-12 text-center wow fadeInDown reAct" data-wow-duration="500ms">
+  						<div class="wrap-about">
+  							<div class="icon-box">
+  								<img src="img/skills/react.png" alt="react" class="react">
+  							</div>
+                <div class="about-content text-center">
+                  <h4>React</h4>
+                </div>
+  						</div>
+  					</div>
+            <div class="col-md-2 col-sm-4 col-xs-12 text-center wow fadeInDown Flux" data-wow-duration="500ms">
+  						<div class="wrap-about">
+  							<div class="icon-box">
+  								<img src="img/skills/flux.png" alt="flux" class="flux">
+  							</div>
+                <div class="about-content text-center">
+                  <h4>Flux</h4>
+                </div>
+  						</div>
+  					</div>
+            <div class="col-md-2 col-sm-4 col-xs-12 text-center wow fadeInDown Redux" data-wow-duration="500ms">
+  						<div class="wrap-about">
+  							<div class="icon-box">
+  								<img src="img/skills/redux.png" alt="redux" class="redux">
+  							</div>
+                <div class="about-content text-center">
+                  <h4>Redux</h4>
+                </div>
+  						</div>
+  					</div>
+            <div class="col-md-2 col-sm-4 col-xs-12 text-center wow fadeInDown Express" data-wow-duration="500ms">
+  						<div class="wrap-about">
+  							<div class="icon-box">
+  								<img src="img/skills/express.png" alt="express" class="express">
+  							</div>
+                <div class="about-content text-center">
+                  <h4>Express</h4>
+                </div>
+  						</div>
+  					</div>
+            <div class="col-md-2 col-sm-4 col-xs-12 text-center wow fadeInDown Jquery" data-wow-duration="500ms">
+  						<div class="wrap-about">
+  							<div class="icon-box">
+  								<img src="img/skills/jquery.png" alt="jquery" class="jquery">
+  							</div>
+                <div class="about-content text-center">
+                  <h4>jquery</h4>
+                </div>
+  						</div>
+  					</div>
+            <div class="col-md-2 col-sm-4 col-xs-12 text-center wow fadeInDown Mongodb" data-wow-duration="500ms">
+  						<div class="wrap-about">
+  							<div class="icon-box">
+  								<img src="img/skills/mongodb.png" alt="Mongodb" class="mongodb">
+  							</div>
+                <div class="about-content text-center">
+                  <h4>Mongodb</h4>
+                </div>
+  						</div>
+  					</div>
+            <div class="col-md-2 col-sm-4 col-xs-12 text-center wow fadeInDown Firebase" data-wow-duration="500ms">
+  						<div class="wrap-about">
+  							<div class="icon-box">
+  								<img src="img/skills/firebase.png" alt="Firebase" class="firebase">
+  							</div>
+                <div class="about-content text-center">
+                  <h4>Firebase</h4>
+                </div>
+  						</div>
+  					</div>
+            <div class="col-md-2 col-sm-4 col-xs-12 text-center wow fadeInDown Webpack" data-wow-duration="500ms">
+  						<div class="wrap-about">
+  							<div class="icon-box">
+  								<img src="img/skills/webpack.png" alt="Webpack" class="webpack">
+  							</div>
+                <div class="about-content text-center">
+                  <h4>Webpack</h4>
+                </div>
+  						</div>
+  					</div>
+            <div class="col-md-2 col-sm-4 col-xs-12 text-center wow fadeInDown HTML5" data-wow-duration="500ms">
+  						<div class="wrap-about">
+  							<div class="icon-box">
+  								<img src="img/skills/HTML5.png" alt="HTML5" class="html5">
+  							</div>
+                <div class="about-content text-center">
+                  <h4>HTML5</h4>
+                </div>
+  						</div>
+  					</div>
+            <div class="col-md-2 col-sm-4 col-xs-12 text-center wow fadeInDown CSS3" data-wow-duration="500ms">
+              <div class="wrap-about">
+                <div class="icon-box">
+                  <img src="img/skills/css.png" alt="CSS3" class="css">
+                </div>
+                <div class="about-content text-center">
+                  <h4>CSS3</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-12 text-center wow fadeInDown Bootstrap" data-wow-duration="500ms">
+              <div class="wrap-about">
+                <div class="icon-box">
+                  <img src="img/skills/bootstrap.png" alt="Bootstrap" class="bootstrap">
+                </div>
+                <div class="about-content text-center">
+                  <h4>Bootstrap</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-12 text-center wow fadeInDown Mocha" data-wow-duration="500ms">
+              <div class="wrap-about">
+                <div class="icon-box">
+                  <img src="img/skills/mocha.png" alt="Mocha" class="mocha">
+                </div>
+                <div class="about-content text-center">
+                  <h4>Mocha</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-12 text-center wow fadeInDown Chai" data-wow-duration="500ms">
+              <div class="wrap-about">
+                <div class="icon-box">
+                  <img src="img/skills/chai.png" alt="Chai" class="chai">
+                </div>
+                <div class="about-content text-center">
+                  <h4>Chai</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-12 text-center wow fadeInDown Google" data-wow-duration="500ms">
+              <div class="wrap-about">
+                <div class="icon-box">
+                  <img src="img/skills/GoogleMaps.png" alt="Google Maps API" class="google">
+                </div>
+                <div class="about-content text-center">
+                  <h4>Google Maps API</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-12 text-center wow fadeInDown Amazon" data-wow-duration="500ms">
+              <div class="wrap-about">
+                <div class="icon-box">
+                  <img src="img/skills/AmazonWebservices.png" alt="Amazon Web Services" class="amazon">
+                </div>
+                <div class="about-content text-center">
+                  <h4>Amazon Web Services</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-12 text-center wow fadeInDown Socket" data-wow-duration="500ms">
+              <div class="wrap-about">
+                <div class="icon-box">
+                  <img src="img/skills/socket_io.gif" alt="Socket.io" class="socket">
+                </div>
+                <div class="about-content text-center">
+                  <h4>Socket.io</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+					<!-- End About item -->
+
+				</div> 		<!-- End row -->
+			</div>   	<!-- End container -->
+		</section>   <!-- End section -->
+
+
+		<!-- Start Services Section
+		==================================== -->
+
+		<section id="hackathon" class="bg-one">
+			<div class="container">
+				<div class="row">
+
+  					<!-- section title -->
+  					<div class="title text-center wow fadeIn" data-wow-duration="500ms">
+  						<h2>My <span class="color">Award</span></h2>
+  						<div class="border"></div>
+  					</div>
+  					<!-- /section title -->
+
+              <!-- testimonial single -->
+              <div class="item text-center">
+
+                <!-- client photo -->
+                <div class="lady">
+                <!-- <div> -->
+        						<div class="service-block text-center">
+        							<div class="service-icon text-center">
+                        <img src="img/project/LadyProblems.jpg" alt="Lady Problem Hackathon">
+        							</div>
+        						</div>
+                </div>
+                <!-- /client photo -->
+
+                <!-- client info -->
+                <div class="client-info">
+                  <div class="client-meta">
+                    <h3>Prizes: 1st Place</h3>
+                    <span>Oct 22 - Oct 23, 2016</span>
+                  </div>
+                  <div class="client-comment">
+                    <p>Manages table banking for women in developing countries.</p>
+                    <p>Uses Flux, MongoDB, Cisco Tropo API, Express.</p>
+                    <ul class="social-profile">
+                      <li><a href="https://dry-retreat-51470.herokuapp.com"><i class="fa fa-globe fa-2x"></i></a></li>
+                      <li><a href="https://github.com/marsholly/entable"><i class="fa fa-github fa-2x"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- /client info -->
+              </div>
+              <!-- /testimonial single -->
+                    <!-- End Single Service Item -->
+
+				</div> 		<!-- End row -->
+			</div>   	<!-- End container -->
+		</section>   <!-- End section -->
+
+
+		<!-- Start Portfolio Section
+		=========================================== -->
+
+		<section id="showcase">
+			<div class="container">
+				<div class="row wow fadeInDown" data-wow-duration="500ms">
+					<div class="col-lg-12">
+
+						<!-- section title -->
+						<div class="title text-center">
+							<h2>My <span class="color">Projects</span></h2>
+							<div class="border"></div>
+						</div>
+						<!-- /section title -->
+					</div> <!-- /end col-lg-12 -->
+				</div> <!-- end row -->
+			</div>	<!-- end container -->
+
+			<!-- portfolio items -->
+			<div class="portfolio-item-wrapper wow fadeInUp" data-wow-duration="500ms">
+                <ul id="og-grid" class="og-grid">
+
+					<!-- single portfolio item -->
+					<li class="mix app">
+						<a href="https://github.com/marsholly/entable" data-largesrc="img/portfolio/entable.png" data-title="Entable" data-description="Manages table banking for women in developing countries. Uses Flux, MongoDB, Cisco Tropo API, and Express.">
+							<img src="img/portfolio/entable.png" alt="entable">
+							<div class="hover-mask">
+								<h3>Entable</h3>
+								<span>
+									<i class="fa fa-plus fa-2x"></i>
+								</span>
+							</div>
+						</a>
+					</li>
+					<!-- /single portfolio item -->
+
+					<!-- single portfolio item -->
+					<li class="mix web">
+						<a href="https://github.com/marsholly/GitHub_Search_Flux" data-largesrc="img/portfolio/gitHub.png" data-title="Github Search" data-description="An app that helps you find the best repos and developers. Uses Flux, Github API, and Express.">
+							<img src="img/portfolio/gitHub.png" alt="Github Search">
+							<div class="hover-mask">
+								<h3>Github Search</h3>
+								<span>
+									<i class="fa fa-plus fa-2x"></i>
+								</span>
+							</div>
+						</a>
+					</li>
+					<!-- /single portfolio item -->
+
+					<!-- single portfolio item -->
+					<li class="mix photoshop">
+						<a href="https://github.com/marsholly/Google_Road_Trip" data-largesrc="img/portfolio/beTrippin.png" data-title="Be Trippin" data-description="Be Trippin will give you a good trip plan. Uses Flux, MongoDB, Google Maps API, and Express.">
+							<img src="img/portfolio/beTrippin.png" alt="Be Trippin">
+							<div class="hover-mask">
+								<h3>Be Trippin</h3>
+								<span>
+									<i class="fa fa-plus fa-2x"></i>
+								</span>
+							</div>
+						</a>
+					</li>
+					<!-- /single portfolio item -->
+
+					<!-- single portfolio item -->
+					<li class="mix illustrator">
+						<a href="https://github.com/marsholly/Blackjack_Flux" data-largesrc="img/portfolio/blackjack.png" data-title="Black Jack Game" data-description="Blackjack, also known as twenty-one, is the most widely played casino banking game in the world. Uses Flux.">
+							<img src="img/portfolio/blackjack.png" alt="Black Jack Game">
+							<div class="hover-mask">
+								<h3>Black Jack Game</h3>
+								<span>
+									<i class="fa fa-plus fa-2x"></i>
+								</span>
+							</div>
+						</a>
+					</li>
+					<!-- /single portfolio item -->
+
+					<!-- single portfolio item -->
+					<li class="mix app">
+						<a href="https://github.com/marsholly/House_sell" data-largesrc="img/portfolio/house.png" data-title="House Sell" data-description="House Sell help you find your way home. Uses MongoDB, Flux, and Express.">
+							<img src="img/portfolio/house.png" alt="House Sell">
+							<div class="hover-mask">
+								<h3>House Sell</h3>
+								<span>
+									<i class="fa fa-plus fa-2x"></i>
+								</span>
+							</div>
+						</a>
+					</li>
+					<!-- /single portfolio item -->
+
+					<!-- single portfolio item -->
+					<li class="mix app">
+						<a href="https://github.com/marsholly/Animal_Shelter_FLUX_SQL" data-largesrc="img/portfolio/ASA.png" data-title="Animal Shelter" data-description="An app that helps you to find your pets and adopt them. Uses Flux, SQL, and Express.">
+							<img src="img/portfolio/ASA.png" alt="Animal Shelter">
+							<div class="hover-mask">
+								<h3>Animal Shelter</h3>
+								<span>
+									<i class="fa fa-plus fa-2x"></i>
+								</span>
+							</div>
+						</a>
+					</li>
+					<!-- /single portfolio item -->
+
+					<!-- single portfolio item -->
+					<li class="mix web">
+						<a href="https://github.com/marsholly/Notebook_chat_dictionary" data-largesrc="img/portfolio/notey.png" data-title="Notey" data-description="Notey allows you use note, dictionary, and chat room. Uses Flux, MongoDB, Socket.io, OwlBot Dictionary API, and Express.">
+							<img src="img/portfolio/notey.png" alt="Notey">
+							<div class="hover-mask">
+								<h3>Notey</h3>
+								<span>
+									<i class="fa fa-plus fa-2x"></i>
+								</span>
+							</div>
+						</a>
+					</li>
+					<!-- /single portfolio item -->
+
+					<!-- single portfolio item -->
+					<li class="mix photoshop">
+						<a href="https://github.com/marsholly/Banking_App_React" data-largesrc="img/portfolio/bank.png" data-title="Banking" data-description="Banking App help you keep track of your money by adding transactions. Uses React and Bootstrap">
+							<img src="img/portfolio/bank.png" alt="Banking">
+							<div class="hover-mask">
+								<h3>Banking</h3>
+								<span>
+									<i class="fa fa-plus fa-2x"></i>
+								</span>
+							</div>
+						</a>
+					</li>
+					<!-- /single portfolio item -->
+				</ul> <!-- end og grid -->
+			</div>  <!-- portfolio items wrapper -->
+
+		</section>   <!-- End section -->
+
+<!--
+		Start Blog Section
+		=========================================== -->
+
+		<section id="blog" class="bg-one">
+			<div class="container">
+				<div class="row">
+
+					<!-- section title -->
+					<div class="title text-center wow fadeInDown">
+						<h2> My <span class="color">Blog</span></h2>
+						<div class="border"></div>
+					</div>
+					<!-- /section title -->
+
+					<div class="clearfix">
+
+						<!-- single blog post -->
+						<article class="col-md-3 col-sm-6 col-xs-12 clearfix wow fadeInUp" data-wow-duration="500ms">
+							<div class="note">
+								<div class="media-wrapper">
+									<img src="img/blog/npm.png" alt="Building a simple command line tool with npm" class="img-responsive">
+								</div>
+
+								<div class="excerpt">
+									<h3>Building a simple command line tool with npm</h3>
+									<p>We asked what you planned to use private modules for, and one of the most common answers was command line tools for teams to use when developing projects.</p>
+									<a class="btn btn-transparent" href="https://medium.com/@Hollyzhou/building-a-simple-command-line-tool-with-npm-fbabaeadc939#.989nuqix6">Read more</a>
+								</div>
+							</div>
+						</article>
+						<!-- /single blog post -->
+
+						<!-- single blog post -->
+						<article class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+							<div class="note">
+								<div class="media-wrapper">
+									<div class="item">
+										<img src="img/blog/realtime.png" alt="Real time data flow" class="img-responsive">
+									</div>
+								</div>
+
+								<div class="excerpt">
+									<h3>Real time data flow with Redux and Socket.io</h3>
+									<p>In this article we are going to connect two of the chat clients we have built so far using a web socket connection with Socket.io.</p>
+                  <br>
+                  <a class="btn btn-transparent" href="https://medium.com/@Hollyzhou/real-time-data-flow-with-redux-and-socket-io-9da30832137a#.cf46ggg0g">Read more</a>
+								</div>
+							</div>
+						</article>
+						<!-- end single blog post -->
+
+						<!-- single blog post -->
+						<article class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
+							<div class="note">
+								<div class="media-wrapper">
+									<img src="img/blog/trickyQuestions.png" alt="JS: Basics and Tricky Questions" class="img-responsive">
+								</div>
+
+								<div class="excerpt">
+									<h3>JS: Basics and Tricky Questions</h3>
+									<p>There are 22 javascript basics and tricky Qustions and answers listed here.</p>
+                  <br>
+                  <br>
+									<a class="btn btn-transparent" href="https://medium.com/@Hollyzhou/js-basics-and-tricky-questions-33a88f80d4b4#.udfvghmf4">Read more</a>
+								</div>
+							</div>
+						</article>
+						<!-- end single blog post -->
+
+						<!-- single blog post -->
+						<article class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
+							<div class="note kill-margin-bottom">
+								<div class="media-wrapper">
+									<img src="img/blog/bigO.png" alt="Data structure — The big O notation" class="img-responsive">
+								</div>
+								<div class="excerpt">
+									<h3>Data structure — The big O notation</h3>
+									<p>If you hear about data structures, you will for sure hear about their complexity. It is usually expressed with the Big O notation. In this article we are going to talk about the Big O.</p>
+									<a class="btn btn-transparent" href="https://medium.com/@Hollyzhou/data-structure-the-big-o-notation-e3e2405bb8eb#.u6vfpo599">Read more</a>
+								</div>
+							</div>
+						</article>
+						<!-- end single blog post -->
+					</div>
+
+
+				</div> <!-- end row -->
+			</div> <!-- end container -->
+		</section> <!-- end section -->
+
+    <section id="resume">
+      <div class="container">
+        <div class="row">
+
+          <!-- section title -->
+          <div class="title text-center wow fadeInUp" data-wow-duration="500ms">
+            <h2>My <span class="color">Resume</span></h2>
+            <div class="border"></div>
+          </div>
+          <!-- /section title -->
+
+          <!-- team member -->
+          <div class="wow fadeInDown text-center resumeDiv" data-wow-duration="500ms">
+            <article class="team-mate">
+              <div class="member-photo">
+                <!-- member photo -->
+                <img class="img-responsive" src="img/team/holly.jpg" alt="Meghna">
+                <!-- /member photo -->
+
+                <!-- member social profile -->
+                <div class="mask">
+                  <ul class="clearfix">
+                    <li><a href="https://github.com/marsholly"><i class="fa fa-github"></i></a></li>
+    								<li><a href="https://www.linkedin.com/in/hong-zhou-174184130"><i class="fa fa-linkedin"></i></a></li>
+    								<li><a href="https://medium.com/@Hollyzhou"><i class="fa fa-medium"></i></a></li>
+                    <li><a href="https://twitter.com/HiHollyzhou"><i class="fa fa-twitter"></i></a></li>
+                  </ul>
+                </div>
+                <!-- /member social profile -->
+              </div>
+
+              <!-- member name & designation -->
+              <div class="member-title">
+                <h3>Hong Zhou</h3>
+                <span>Full-Stack Javascript Developer</span>
+              </div>
+              <!-- /member name & designation -->
+
+              <!-- about member -->
+             <div class="member-info text-center">
+                  <a class="btn btn-transparent" href="blog.html">View Resume</a>
+             </div>
+               <!-- /about member -->
+
+              </article>
+            </div>
+          <!-- end team member -->
+        </div>  	<!-- End row -->
+      </div>   	<!-- End container -->
+    </section>   <!-- End section -->
+
+    <!-- Start Footer Section
+    ========================================== -->
+		<footer id="footer" class="bg-one">
+			<div class="container">
+			    <div class="row wow fadeInUp" data-wow-duration="500ms">
+					<div class="col-lg-12">
+
+						<!-- Footer Social Links -->
+						<div class="social-icon">
+							<ul>
+                <li><a href="https://github.com/marsholly"><i class="fa fa-github"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/hong-zhou-174184130"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://medium.com/@Hollyzhou"><i class="fa fa-medium"></i></a></li>
+                <li><a href="https://twitter.com/HiHollyzhou"><i class="fa fa-twitter"></i></a></li>
+							</ul>
+						</div>
+						<!--/. End Footer Social Links -->
+
+						<!-- copyright -->
+						<div class="copyright text-center">
+							<a href="index.html">
+								<h1 id="hong">Hong Zhou - Holly</h1>
+							</a>
+							<br />
+
+							<p>Design And Developed by Hong Zhou. Copyright &copy; 2016. All Rights Reserved.</p>
+						</div>
+						<!-- /copyright -->
+
+					</div> <!-- end col lg 12 -->
+				</div> <!-- end row -->
+			</div> <!-- end container -->
+		</footer> <!-- end footer -->
+
+		<!-- Back to Top
+		============================== -->
+		<a href="javascript:;" id="scrollUp">
+			<i class="fa fa-angle-up fa-2x"></i>
+		</a>
+
+		<!-- end Footer Area
+		========================================== -->
+
+		<!--
+		Essential Scripts
+		=====================================-->
+
+		<!-- Main jQuery -->
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<!-- Bootstrap 3.1 -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Slitslider -->
+		<script src="js/jquery.slitslider.js"></script>
+		<script src="js/jquery.ba-cond.min.js"></script>
+		<!-- Parallax -->
+		<script src="js/jquery.parallax-1.1.3.js"></script>
+		<!-- Owl Carousel -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- Portfolio Filtering -->
+		<script src="js/jquery.mixitup.min.js"></script>
+		<!-- Custom Scrollbar -->
+		<script src="js/jquery.nicescroll.min.js"></script>
+		<!-- Jappear js -->
+		<script src="js/jquery.appear.js"></script>
+		<!-- Pie Chart -->
+		<script src="js/easyPieChart.js"></script>
+		<!-- jQuery Easing -->
+		<script src="js/jquery.easing-1.3.pack.js"></script>
+		<!-- tweetie.min -->
+		<script src="js/tweetie.min.js"></script>
+		<!-- Google Map API -->
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<!-- Highlight menu item -->
+		<script src="js/jquery.nav.js"></script>
+		<!-- Sticky Nav -->
+		<script src="js/jquery.sticky.js"></script>
+		<!-- Number Counter Script -->
+		<script src="js/jquery.countTo.js"></script>
+		<!-- wow.min Script -->
+		<script src="js/wow.min.js"></script>
+		<!-- For video responsive -->
+		<script src="js/jquery.fitvids.js"></script>
+		<!-- Grid js -->
+		<script src="js/grid.js"></script>
+		<!-- Custom js -->
+		<script src="js/custom.js"></script>
+
+    </body>
+</html>
