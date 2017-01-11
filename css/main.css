@@ -27,10 +27,10 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 ==================================================================*/
 
 body {
-    background-color: #2B2C30;
+  background-color: #2B2C30;
 	font-family: 'Ubuntu', 'Arial', sans-serif;
-    line-height: 1.5;
-    color: #ddd;
+  line-height: 1.5;
+  color: #ddd;
 }
 
 ol, ul {
@@ -228,13 +228,6 @@ h1, h2, h3, h4, h5, h6 {
 	background-size: cover;
 }
 
-#holly {
-  font-size: 80px;
-  font-family: sans-serif;
-  font-weight: bolder;
-  color: #6cb670;
-}
-
 .titleFull {
   font-size: 46px !important;
 }
@@ -257,13 +250,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #slitSlider .carousel-caption {
 	padding: 0;
-    display: table;
-    height: 100%;
-    width: 100%;
-    min-height: 100%;
-    left: 0;
-    top: 0;
-    z-index: 11;
+  display: table;
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 11;
 	background-color: rgba(0,0,0,.5);
 }
 
@@ -293,6 +286,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 59px;
 }
 
+#holly {
+  font-size: 80px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: #6cb670;
+}
 
 
 /*=================================================================
