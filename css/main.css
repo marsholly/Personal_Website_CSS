@@ -1809,3 +1809,7 @@ blockquote {
 .form-group:last-child input {
   margin: 0;
 }
+
+.resume {
+  margin-top: -70px;
+}
